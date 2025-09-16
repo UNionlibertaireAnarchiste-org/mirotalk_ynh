@@ -45,7 +45,7 @@ ram.runtime = "100M"
 
     [resources.sources.main]
     url = "https://github.com/UNionlibertaireAnarchiste-org/mirotalk/archive/master.tar.gz"
-    sha256 = "skip_check"
+    sha256 = "99a601a52dcc2f610a3ae6b313f7ace5fb5740d6b389a4f85cccddea3a4cbbc2"
     autoupdate.upstream = "https://github.com/UNionlibertaireAnarchiste-org/mirotalk/"
     autoupdate.strategy = "latest_github_commit"
 
