@@ -24,6 +24,9 @@ ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
 
+# Copy config template to config.js
+cp "$install_dir/app/src/config.template.js" "$install_dir/app/src/config.js"
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
